@@ -1,0 +1,535 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+    margin: 0% auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+header {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+
+
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #fff9f4;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    flex-wrap: wrap;
+}
+
+span {
+    color: #ff8367;
+    font-weight: bold;
+}
+
+.navlogo {
+    display: flex;
+    padding-left: 18vh;
+    font-size: 20px;
+}
+
+.navlogo img {
+    width: 82px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+.logo {
+    display: flex;
+    list-style-type: none;
+    margin-right: 160px;
+    gap: 60px;
+    color: #73706E;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 160px;
+    gap: 60px;
+    color: #73706E;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.color {
+    color: black;
+}
+
+.container {
+    background-color: #FFF9F4;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.shop {
+    width: 700px;
+    order: 1;
+    margin-left: 100px;
+
+}
+
+.shopshoe img {
+    width: 600px;
+    height: 530px;
+    margin-left: 70px;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 70px;
+    font-weight: 100px;
+    color: #363958;
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    width: 400px;
+}
+
+button {
+    background-color: #3D4FF3;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 10px;
+    color: #363958;
+    padding: 0px;
+    margin-left: 110px;
+    margin-bottom: 13px;
+}
+
+.cardContainer {
+    width: 70%;
+    margin: 30px auto;
+}
+
+.cardHeading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cardHeading a {
+    color: #3A77FF;
+    text-decoration: none;
+}
+
+.card {
+    height: 580px;
+    width: 420px;
+    /* border: 1px solid rgba(184, 184, 184, 0.973); */
+    border-radius: 12px;
+    background-color: white;
+}
+
+.card img {
+    object-fit: cover;
+    width: 400px;
+    height: 350px;
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 0%;
+
+}
+
+.cardBody {
+    padding: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cardName {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 370px;
+}
+
+.cardLocation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ff8367;
+
+
+}
+
+.time {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #666;
+}
+
+.allCards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 2px;
+    gap: 50px;
+}
+
+.cover {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.section img {
+    height: 85px;
+    width: 80px;
+}
+
+.section {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+    background-color: white;
+    margin: 1vh;
+    border-radius: 2vh;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.para {
+    width: 300px;
+}
+
+.iconpara {
+    margin-left: 40px;
+}
+
+.section1 {
+    margin-top: 10px;
+}
+
+.iconp {
+    width: 200px;
+    display: flex;
+    justify-self: left;
+}
+
+.section div {
+    height: 112px;
+    width: 289px;
+}
+
+.cover {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+article {
+    background-color: #e5e5e5;
+}
+
+span {
+    color: #ff8367;
+}
+
+.buttom {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .cardBody {
+    padding: 15px;
+} */
+
+h2 {
+    color: #363958;
+    font-size: 6vh;
+    font-weight: 900;
+}
+
+h3 {
+    color: #363958;
+}
+
+.subscribe {
+    height: 185px;
+    width: 913px;
+    margin-bottom: 70px;
+
+}
+
+.subscribe h2 {
+    text-align: center;
+    padding-top: 6vh;
+    padding-bottom: 3vh;
+    text-transform: uppercase;
+    font-size: 4vh;
+    font-weight: 4vh;
+    word-spacing: 2px;
+
+}
+
+.subscribe input {
+    height: 44px;
+    width: 150vh;
+    padding-left: 7px;
+    margin-left: -10vh;
+    position: relative;
+
+}
+
+.subscribe button {
+    background-color: #3D4FF3;
+    color: #F1F1F1;
+    width: 95px;
+    height: 45px;
+    border-radius: 1px;
+    margin-left: -6px;
+    font-weight: 900;
+    position: absolute;
+    left: 169vh;
+    bottom: 47vb;
+}
+
+.new {
+    background-color: white;
+    height: 190px;
+    width: 175vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-top: 8vh;
+    margin-left: 100px;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8vh;
+    flex-wrap: wrap;
+    background-color: white;
+    /* padding-top: 8vh; */
+}
+
+.footer-items h3 {
+    font-size: 4vh;
+    font-weight: 3vh;
+    color: #363958;
+    margin: 20px 0 10px 0;
+    background-color: white;
+}
+
+.footer-items ul {
+    list-style: none;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.footer-items li a {
+    color: #232f3e;
+    font-size: 0.875rem;
+    text-decoration: none;
+    background-color: white;
+}
+
+footer {
+    height: 250px;
+    width: 100%;
+    border-radius: 1vh;
+    background-color: white;
+
+}
+
+.copy {
+    text-align: center;
+    background-color: white;
+}
+
+.copy h1 {
+    color: #232f3e;
+    background-color: white;
+}
+
+@media only screen and (max-width: 1290px) {
+    .new {
+        background-color: white;
+        height: 190px;
+        width: 140vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        margin-top: 8vh;
+        margin-left: 80px;
+    }
+
+
+    .subscribe {
+        height: 185px;
+        width: 100vh;
+        margin-bottom: 70px;
+    }
+
+    .subscribe input {
+        height: 44px;
+        width: 100vh;
+        padding-left: 7px;
+        margin-left: 7vh;
+        position: relative;
+
+    }
+
+    .subscribe button {
+        background-color: #3D4FF3;
+        color: #F1F1F1;
+        width: 95px;
+        height: 49px;
+        border-radius: 1px;
+        margin-left: -6px;
+        font-weight: 900;
+        position: absolute;
+        left: 127.5vh;
+        bottom: 46.5vb;
+
+    }
+
+    .shop {
+        width: 500px;
+        order: 1;
+        margin-left: 100px;
+
+    }
+
+    .shopshoe img {
+        width: 400px;
+        height: 400px;
+        margin-left: 70px;
+    }
+
+    .logo {
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .new {
+        background-color: white;
+        height: 190px;
+        width: 131vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        margin-top: 8vh;
+        margin-left: 80px;
+    }
+
+
+    .subscribe {
+        height: 185px;
+        width: 100vh;
+        margin-bottom: 70px;
+    }
+
+    .subscribe input {
+        height: 44px;
+        width: 100vh;
+        padding-left: 7px;
+        margin-left: 7vh;
+        position: relative;
+
+    }
+
+    .subscribe button {
+        background-color: #3D4FF3;
+        color: #F1F1F1;
+        width: 95px;
+        height: 49px;
+        border-radius: 1px;
+        margin-left: -6px;
+        font-weight: 900;
+        position: absolute;
+        left: 123vh;
+        bottom: 46.5vb;
+
+    }
+
+    p {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+    .new {
+        width: 120vh;
+    }
+
+    .subscribe h2 {
+        font-size: 2vh;
+    }
+
+    .subscribe input {
+        width: 80vh;
+    }
+
+    .subscribe button {
+        position: absolute;
+        left: 97.5vh;
+        bottom: 50.5vb;
+    }
+    .shop{
+        margin-left: 70px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .shopshoe img{
+        margin-left: 40px;
+    }
+    .shop{
+        margin-left: 20px;
+    }
+    .new{
+        width: 800px;
+    }
+    .logo{
+        display: none;
+    }
+}
